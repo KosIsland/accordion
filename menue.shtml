@@ -1,0 +1,153 @@
+<amp-accordion disable-session-states>                                                             <!-- menue.shtml begin -->
+      <section>
+        <h4>Menü</h4>
+        <ul>
+          <!--#if expr="($showSitemap=/TRUE/)" -->
+          <li><a href="/Sitemap/Sitemap.shtm">          Sitemap</a></li>
+          <!--#else -->
+          <li><a href="/amp/">Home</a></li>
+          <!--#endif -->
+          <li><a href="/amp/a-z.shtm">                  Kos von A bis Z</a></li>
+          <li class="hasChildren">
+            <amp-accordion class="nested-accordion"  disable-session-states>
+              <section>
+                <h4>Wissenswertes</h4>
+                <ul>
+                  <li><a href="/amp/wissenswertes.shtm">        Übersicht</a></li>
+                  <li><a href="/Wissen/Lage/Lage.shtm">         Wo liegt Kos?</a></li>
+                  <li><a href="/Wissen/Geograph/Geograph.shtm"> Geographie</a></li>
+                  <li><a href="/Wissen/Straende/Straende.shtm"> Str&auml;nde</a></li>
+                  <li><a href="/Wissen/Geschich/Geschich.shtm"> Geschichte</a></li>
+                  <li><a href="/Wissen/Hippokr/Hippokr.shtm">   Über Hippokrates</a></li>
+                  <li><a href="/Wissen/Klima/Klima.shtm">	    Klima</a></li>
+                  <li><a href="/Wissen/Wetter/Wetter.shtm"> 	Aktuelles Wetter</a></li>
+                  <li><a href="/Wissen/Berichte/Berichte.shtm"> Reiseberichte</a></li>
+                  <li><a href="/Wissen/Fuehrer/Reisefuehrer.shtm">Reisef&uuml;hrer</a></li>
+                  <li><a href="/Wissen/Bus/Bus.shtm">           Busverbindungen</a></li>
+                  <li><a href="/Wissen/Stadtbus/Stadtbus.shtm"> Der Stadtbus</a></li>
+                  <li><a href="/Wissen/Inselbus/Inselbus.shtm"> Der Inselbus</a></li>	
+                  <li><a href="/Links/Links.shtm">			    Links zur Insel</a></li>
+                  <li><a></a></li>
+                </ul>
+              </section>
+            </amp-accordion>
+          </li>
+          <li class="hasChildren">
+            <amp-accordion class="nested-accordion"  disable-session-states>
+              <section>
+                <h4>Kos-Stadt und Umgebung</h4>
+                <ul>
+                  <li><a href="/Sehen/Kos-Stadt/Kos-Stadt.shtm">Übersicht</a></li>
+                  <li><a href="/Sehen/AgiosFokas/AgiosFokas.shtm">Agios Fok&aacute;s</a></li>
+                  <li><a href="/Sehen/Asklepi/Asklepi.shtm?">    Asklepieion von Kos</a></li>
+                  <li><a href="/Sehen/Neratzia/Neratzia.shtm">   Burg Ner&aacute;tzia</a></li>
+                  <li><a href="/Sehen/CasaRomana/CasaRomana.shtm">Casa Romana</a></li>
+                  <li><a href="/Sehen/Eleftherias/Eleftherias.shtm"> Elefther&iacute;as Platz</a></li>
+                  <li><a href="/Sehen/Foundation/Foundation.shtm">Hippocratic Foundation</a></li>
+                  <li><a href="/Sehen/Hafen/Hafen.shtm">          Mandr&aacute;ki-Hafen</a></li>
+                  <li><a href="/Sehen/Loggien/Loggien.shtm">      Loggienmoschee</a></li>
+                  <li><a href="/Sehen/Platane/Platane.shtm">      Platane des Hippokrates</a></li>
+                  <li><a href="/Sehen/Hamam/Hamam.shtm">          T&uuml;rkisches Bad</a></li>
+                  <li><a href="/Sehen/Ausgrabungen/Ausgrabungen.shtm">Westliche Ausgrabungen</a></li>
+                  <li><a></a></li>
+                </ul>
+              </section>
+            </amp-accordion>
+          </li>
+          <li class="hasChildren">
+            <amp-accordion class="nested-accordion"  disable-session-states>
+              <section>
+                <h4>Inselmitte</h4>
+                <ul>
+                  <li><a href="/Sehen/Sehen.shtm">                Übersicht</a></li>
+                  <li><a href="/Sehen/Antimachia/Antimachia.shtm">Antim&aacute;chia</a></li>
+                  <li><a href="/Sehen/Dikeos/Dikeos.shtm">        D&iacute;keos</a></li>
+                  <li><a href="/Sehen/Mastichari/Mastichari.shtm">Hippocrates Garden</a></li>
+                  <li><a href="/Sehen/Kastell/Kastell.shtm">      Kastell von Antim&aacute;chia</a></li>
+                  <li><a href="/Sehen/Pyli/Pyli.shtm">            Pyli</a></li>
+                  <li><a href="/Sehen/PaleoPyli/PaleoPyli.shtm">  Pal&eacute;o Pyli</a></li>
+                  <li><a href="/Sehen/Zia/Zia.shtm">              Zia</a></li>
+                  <li><a></a></li>
+                </ul>
+              </section>
+            </amp-accordion>
+          </li>
+          <li class="hasChildren">
+            <amp-accordion class="nested-accordion"  disable-session-states>
+              <section>
+                <h4>Halbinsel Kefalos</h4>
+                <ul> 
+                  <li><a href="/Sehen/Halbinsel/Halbinsel.shtm">  Übersicht</a></li>
+                  <li><a href="/Sehen/Ioannis/Ioannis.shtm">      Agios Ioannis Thymianos</a></li>
+                  <li><a href="/Sehen/Mamas/Mamas.shtm">          Agios Mamas</a></li>
+                  <li><a href="/Sehen/AspriPetra/AspriPetra.shtm">Aspri Petra</a></li>
+                  <li><a href="/Sehen/Kefalos/Kefalos.shtm">      Kefalos</a></li>
+                  <li><a></a></li>
+                </ul>
+              </section>
+            </amp-accordion>
+          </li>
+          <li class="hasChildren">
+            <amp-accordion class="nested-accordion"  disable-session-states>
+              <section>
+                <h4>Bilder und Videos</h4>
+                <ul> 
+                  <li><a href="/Bilder/Bilder.shtm">              Videos</a></li>
+                  <li><a href="/Bilder/Mastich/">                 Mastichari</a></li>
+                  <li><a href="/Bilder/Kefalos/">                 Kefalos</a></li>
+                  <li><a href="/Bilder/Kamari/">                  Kamari</a></li>
+                  <li><a></a></li>
+                </ul>
+              </section>
+            </amp-accordion>
+          </li>
+          <li class="hasChildren">
+            <amp-accordion class="nested-accordion"  disable-session-states>
+              <section>
+                <h4>Webcams auf Kos</h4>
+                <ul> 
+                  <li><a href="/Webcam/Webcam.shtm">              Hafenpromenade</a></li>
+                  <li><a href="/Webcam/Gericht/Gericht.shtm">     Gerichtsgeb&auml;ude</a></li>
+                  <li><a href="/Webcam/Elephterias/Elephterias.shtm"> Elephterias Platz</a></li>
+                  <li><a></a></li>
+                </ul>
+              </section>
+            </amp-accordion>
+          </li>                  
+          <li><a href="/Favoriten/Favoriten.shtm">	    Meine Favoriten</a></li>
+          <li class="hasChildren">
+            <!-- amp-accordion class="nested-accordion">
+              <section>
+                <h4>G&auml;stebuch</h4>
+                <ul>
+                  <li><a href="/Gaestebuch/Gaestebuch.shtm">    Aktuelle Einträge</a></li>
+                  <li class="hasChildren">
+                    <amp-accordion class="nested-accordion">
+                      <section>
+                        <h4>Archiv</h4>
+                        <ul> 
+                          <li><a href="/Gaestebuch/2011/2011.shtm">         Archiv 2011-2013</a></li>
+                          <li><a href="/Gaestebuch/2010/2010.shtm">         Gästebucharchiv 2010</a></li>
+                          <li><a href="/Gaestebuch/2009/2009.shtm">         Gästebucharchiv 2009</a></li>
+                          <li><a href="/Gaestebuch/2008/2008.shtm">         Gästebucharchiv 2008</a></li>
+                          <li><a href="/Gaestebuch/2007/2007.shtm">         Gästebucharchiv 2007</a></li>
+                          <li><a href="/Gaestebuch/2006/2006.shtm">         Gästebucharchiv 2006</a></li>
+                          <li><a href="/Gaestebuch/2005/2005.shtm">         Gästebucharchiv 2005</a></li>
+                          <li><a href="/Gaestebuch/2004/2004-2.shtm">       Gästebucharchiv 2004-2</a></li>
+                          <li><a href="/Gaestebuch/2004/2004-1.shtm">       Gästebucharchiv 2004-1</a></li>
+                          <li><a href="/Gaestebuch/2003/2003.shtm">         Gästebucharchiv 2003</a></li>
+                          <li><a></a></li>
+                        </ul>
+                      </section>
+                    </amp-accordion>
+                  </li>                  
+                  <li><a></a></li>
+                </ul>
+              </section>
+            </amp-accordion>
+          </li>                  
+          <li><a href="/Kontakt/Kontakt.shtm">          Kontakt</a></li -->
+          <li><a href="/amp/impressum.shtm">            Impressum</a></li>
+        </ul>
+      </section>
+    </amp-accordion>                                                            <!-- menue.shtml end -->
