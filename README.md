@@ -1,2 +1,2 @@
 # accordion
-test the amp-accordion
+test the amp-accordion menu
